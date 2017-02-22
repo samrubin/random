@@ -1,0 +1,18 @@
+b 59
+b 42
+
+command 1
+	printf "*********************dequeue\n"
+	info locals
+	c
+	printf "************************"
+end
+
+command 2
+	printf "*********************enqueue\n"
+	info locals
+	c
+	printf "************************"
+
+end
+	
